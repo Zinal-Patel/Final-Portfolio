@@ -1391,8 +1391,8 @@ h1, h2, h3, h4{
 #green{
     color: hsl(142, 69%, 61%); 
 }
-#blue{
-    color: hsl(230, 69%, 61%); 
+#yellow{
+    color: hsl(61, 69%, 61%); 
 }
 #pink{
     color: hsl(340, 69%, 61%); 
@@ -1403,4 +1403,3 @@ h1, h2, h3, h4{
     opacity: 1;
     visibility: visible;
 } 
-

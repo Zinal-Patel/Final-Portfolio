@@ -303,8 +303,8 @@ function setToPurple() {
 function setToGreen() {
     r.style.setProperty('--base-color', '142');
 }
-function setToBlue() {
-    r.style.setProperty('--base-color', '230');
+function setToYellow() {
+    r.style.setProperty('--base-color', '61');
 }
 function setToPink() {
     r.style.setProperty('--base-color', '340');
@@ -312,15 +312,15 @@ function setToPink() {
 
 var purple = document.querySelector('#purple');
 var green = document.querySelector('#green');
-var blue = document.querySelector('#blue');
+var yellow = document.querySelector('#yellow');
 var pink = document.querySelector('#pink');
 
 purple.addEventListener('click', setToPurple)
 purple.addEventListener('click', themeClose)
 green.addEventListener('click', setToGreen)
 green.addEventListener('click', themeClose)
-blue.addEventListener('click', setToBlue)
-blue.addEventListener('click', themeClose)
+yellow.addEventListener('click', setToYellow)
+yellow.addEventListener('click', themeClose)
 pink.addEventListener('click', setToPink)
 pink.addEventListener('click', themeClose)
 
