@@ -392,7 +392,11 @@ h1, h2, h3, h4{
 .button-flex{
     display: inline-flex;
     align-items: center;
-}
+    margin-top: 5px;
+
+ }
+
+
 
 .button-small{
     padding: 0.75rem 1rem;
